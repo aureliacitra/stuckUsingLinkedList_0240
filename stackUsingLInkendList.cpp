@@ -33,10 +33,9 @@ class Stack
      cout << "Push Value: " << value << endl;
      return value;
     }
-}
 
 void pop()
-{
+   {
     if (isEmpty())
     {
         cout << "stack is empty " << endl;
@@ -44,6 +43,16 @@ void pop()
 
     cout << "Popped Value: " << top->data << endl;
     top = top->next;
-}
+   }
 
 void peek()
+  {
+    if(top == NULL)
+    {
+        cout << "list is empty. " << endl;
+    }
+
+   
+  }
+
+}
