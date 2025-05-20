@@ -45,3 +45,5 @@ void pop()
     cout << "Popped Value: " << top->data << endl;
     top = top->next;
 }
+
+void peek()
