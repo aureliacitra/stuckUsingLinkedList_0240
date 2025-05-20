@@ -52,7 +52,10 @@ void peek()
         cout << "list is empty. " << endl;
     }
 
-   
+    else
+    {
+      Node *current = top;
+      
   }
 
 }
