@@ -115,6 +115,15 @@ int main()
                 cout << "stact is empty. no top value." << endl;
             }
             break;
+
+            case 4:
+            cout << "Exiting Program." << endl;
+            break;
+            default:
+            cout << "invalid choice. try again." << endl;
+            break;
         }
+        cout << endl;
     }
+    return 0;
 }
